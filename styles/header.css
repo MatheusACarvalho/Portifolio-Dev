@@ -1,0 +1,74 @@
+header {
+  flex-wrap: wrap;
+  
+  #perfil {
+    margin-block-end: 56px;
+    border: 3px solid var(--color-main-red);
+    height: 112px;
+    width: 112px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  /* Tentativa de Posicionar o incone na imagem
+  #icon-dev {
+   position: relative;
+   left: 424px;
+   top: 120px;
+  }
+  */
+  span {
+    color: var(--color-main-red);
+  }
+
+  #intro-info
+  {
+    padding-block-start: 120px;
+    padding-block-end: 80px;
+    padding-inline: 343px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    p:nth-child(4) {
+      padding-block-start: 20px;
+    }
+  }
+  #tecnologies {
+    gap: 16px;
+    padding-inline: 306px;
+    
+
+  }
+  .button-tecnologies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 114px;
+    height: 40px;
+    background: #292C34;
+    border-radius: 999px;
+   
+
+  }
+
+  #roll-down{
+    padding-inline: 667px;
+    padding-block-start: 94px;
+    padding-block-end: 60.5px;
+  }
+
+  #javascript-button {
+    width: 138px;
+  }
+  
+}
+
+#bg-header-div {
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
