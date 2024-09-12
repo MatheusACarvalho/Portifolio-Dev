@@ -69,6 +69,6 @@ header {
 #bg-header-div {
   background-image: url(../assets/images/Background_Intro.png);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  
 }

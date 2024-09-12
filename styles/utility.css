@@ -1,6 +1,15 @@
 .title-lg {
   font: var(--title-lg);
+  color: var(--color-base-gray-600);
+}
 
+.title-md {
+  font: var(--title-md);
+  color: var(--color-base-gray-600);
+}
+
+.title-sm {
+  font: var(--title-sm);
   color: var(--color-base-gray-600);
 }
 
@@ -17,6 +26,11 @@
 
 .text-md{
   font: var(--text-md);
+  color: var(--color-base-gray-500);
+}
+
+.text-sm{
+  font: var(--text-sm);
   color: var(--color-base-gray-500);
 }
 

@@ -1,0 +1,46 @@
+#bg-services-div {
+  background-color: var(--color-base-gray-200);
+}
+
+#services {
+  flex-direction: column;
+  align-items: center;
+    .subtitle {
+      color: var(--color-main-red);
+      padding-block-start: 72px;
+      padding-block-end: 8px;
+    }
+  
+    .title-md {
+      padding-block-end: 56px;
+    }
+
+    #service-card {
+      gap: 24px;
+    }
+    
+    .card-box-service {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-block: 20px;
+      padding-inline: 20px;
+      width: 280px;
+      height: 155px;
+      border: 2px solid #C0C4CE;
+      border-radius: 12px;
+    }
+    img {
+      width: 48px;
+      height: 48px;
+      margin-block-end: 20px;
+    }
+
+    .card-box-service-content {
+      flex-direction: column;
+      gap: 8px;
+    }
+
+}

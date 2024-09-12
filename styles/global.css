@@ -46,11 +46,13 @@ body {
 main {
   display: grid;
   grid-template-areas:
+
+   "header"
    "content"
    "services"
    "contact";
 
-   grid-template-rows: 917px 480px 787px;
+   grid-template-rows: 750px 917px 480px 787px;
 }
 
 .container {
