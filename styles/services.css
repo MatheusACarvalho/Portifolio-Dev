@@ -17,6 +17,7 @@
 
     #service-card {
       gap: 24px;
+      padding-block-end: 120px;
     }
     
     .card-box-service {

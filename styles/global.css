@@ -44,14 +44,7 @@ body {
 }
 
 main {
-  display: grid;
-  grid-template-areas:
-
-   "header"
-   "content"
-   "services"
-   "contact";
-
+   display: grid;
    grid-template-rows: 750px 917px 480px 787px;
 }
 
